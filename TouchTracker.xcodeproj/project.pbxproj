@@ -14,6 +14,7 @@
 		776CE3B41FDA7660004ECDAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 776CE3B21FDA7660004ECDAD /* LaunchScreen.storyboard */; };
 		776CE3BF1FDA7661004ECDAD /* TouchTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776CE3BE1FDA7661004ECDAD /* TouchTrackerTests.swift */; };
 		776CE3CA1FDA7661004ECDAD /* TouchTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776CE3C91FDA7661004ECDAD /* TouchTrackerUITests.swift */; };
+		776CE3D81FDA7878004ECDAD /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776CE3D71FDA7878004ECDAD /* Line.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		776CE3C51FDA7661004ECDAD /* TouchTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		776CE3C91FDA7661004ECDAD /* TouchTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchTrackerUITests.swift; sourceTree = "<group>"; };
 		776CE3CB1FDA7661004ECDAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		776CE3D71FDA7878004ECDAD /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				776CE3B01FDA7660004ECDAD /* Assets.xcassets */,
 				776CE3B21FDA7660004ECDAD /* LaunchScreen.storyboard */,
 				776CE3B51FDA7661004ECDAD /* Info.plist */,
+				776CE3D71FDA7878004ECDAD /* Line.swift */,
 			);
 			path = TouchTracker;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				776CE3D81FDA7878004ECDAD /* Line.swift in Sources */,
 				776CE3AC1FDA7660004ECDAD /* ViewController.swift in Sources */,
 				776CE3AA1FDA7660004ECDAD /* AppDelegate.swift in Sources */,
 			);
